@@ -12,6 +12,7 @@ def register():
     cursor.execute(str1%args)
     con.commit()
 def login():
+    print("LOGIN :- ")
     a = input("Enter your name : ")
     b = int(input("Enter the password : "))
     try:
