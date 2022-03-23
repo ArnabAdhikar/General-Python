@@ -7,7 +7,7 @@ def register():
     print("REGISTRATION :- ")
     a = input("Enter your name : ")
     b = int(input("Enter the password : "))
-    str1 = "insert into username values('%s','%d');"
+    str1 = "insert into username values('%s','%d')"
     args = (a,b)
     cursor.execute(str1%args)
     con.commit()
